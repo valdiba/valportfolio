@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .sections {
+        display: flex;
+        justify-content: space-around;
+        width: 30vw;
+    }
+
+    .logo {
+        img {
+            height: 15vh;
+        }
+    }
+
+    .right-sections {
+        display: flex;
+        justify-content: space-around;
+        width: 30vw;
+    }
+
+    .section {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
